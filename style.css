@@ -1,0 +1,22 @@
+html, body{
+    padding:0px;
+    margin:0px;
+}
+.content{
+    border:1px solid darkcyan;
+}
+#Container{
+    display:grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-area: 
+    'header header header'
+    'menu menu menu'
+    'footer footer footer';
+}
+.content1{
+    grid-area:header;
+}
+.content2{
+    grid-area
+}
