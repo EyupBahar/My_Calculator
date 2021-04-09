@@ -1,2 +1,19 @@
 const inputField = document.getElementById("inputField");
-const  = document.getElementById("")
+const ac = document.getElementById("ac");
+const division = document.getElementById("division");
+const multi = documnet.getElementById("multi");
+const sum = document.getElementById("sum");
+const minus = document.getElementById("minus");
+const b7 = document.getElementById("btn7");
+const b8 = document.getElementById("btn8");
+const b9 = document.getElementById("btn9");
+const b4 = document.getElementById("btn4");
+const b5 = document.getElementById("btn5");
+const b6 = document.getElementById("btn6");
+const b1 = document.getElementById("btn1");
+const b2 = document.getElementById("btn2");
+const b3 = document.getElementById("btn3");
+const b0 = document.getElementById("btn0");
+const equal = document.getElementById("equal");
+const p/m = document.getElementById("plus/minus");
+
