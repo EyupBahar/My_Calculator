@@ -67,33 +67,33 @@ multi.addEventListener('click', function(){
 division.addEventListener('click', function(){
     scrn.value += "/";
 })
-// comma.addEventListener("click",function(){
-//     if (scrn.value.includes(".") == true){
-//         return false
-//     }
-//     if (scrn.value.includes(".") == false){
-//         scrn.value += '.'
-//     }  
-// })
-// square.addEventListener("click", function(){
-//     if (scrn.value == ""){
-//         return false
-//     }
-//     else if(scrn.value.includes("+") == true || scrn.value.includes("-") == true || scrn.value.includes("/") == true ||scrn.value.includes("*") == true){
-//         return false
-//     }
-//     else{
-//         scrn.value = eval(scrn.value * scrn.value)
-//     }
-//     })
-// sqrt.addEventListener('click',function(){
-//     if (scrn.value == ""){
-//         return false
-//     }
-//     else if(scrn.value.includes("+") == true || scrn.value.includes("-") == true || scrn.value.includes("/") == true ||scrn.value.includes("*") == true){
-//         return false
-//     }
-//     else{
-//         scrn.value = Math.sqrt(scrn.value)
-//     }
-// })
+comma.addEventListener("click",function(){
+    if (scrn.value.includes(".") == true){
+        return false
+    }
+    if (scrn.value.includes(".") == false){
+        scrn.value += '.'
+    }  
+})
+square.addEventListener("click", function(){
+    if (scrn.value == ""){
+        return false
+    }
+    else if(scrn.value.includes("+") == true || scrn.value.includes("-") == true || scrn.value.includes("/") == true ||scrn.value.includes("*") == true){
+        return false
+    }
+    else{
+        scrn.value = eval(scrn.value * scrn.value)
+    }
+    })
+sqrt.addEventListener('click',function(){
+    if (scrn.value == ""){
+        return false
+    }
+    else if(scrn.value.includes("+") == true || scrn.value.includes("-") == true || scrn.value.includes("/") == true ||scrn.value.includes("*") == true){
+        return false
+    }
+    else{
+        scrn.value = Math.sqrt(scrn.value)
+    }
+})
