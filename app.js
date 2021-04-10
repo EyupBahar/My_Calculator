@@ -1,19 +1,99 @@
-const inputField = document.getElementById("inputField");
-const ac = document.getElementById("ac");
+const scrn = document.getElementById("scrn");
+const AC = document.getElementById("AC");
 const division = document.getElementById("division");
-const multi = documnet.getElementById("multi");
+const multi = document.getElementById("multi");
 const sum = document.getElementById("sum");
 const minus = document.getElementById("minus");
-const b7 = document.getElementById("btn7");
-const b8 = document.getElementById("btn8");
-const b9 = document.getElementById("btn9");
-const b4 = document.getElementById("btn4");
-const b5 = document.getElementById("btn5");
-const b6 = document.getElementById("btn6");
-const b1 = document.getElementById("btn1");
-const b2 = document.getElementById("btn2");
-const b3 = document.getElementById("btn3");
-const b0 = document.getElementById("btn0");
+const seven = document.getElementById("seven");
+const eight = document.getElementById("eight");
+const nine = document.getElementById("nine");
+const four = document.getElementById("four");
+const five = document.getElementById("five");
+const six = document.getElementById("six");
+const one = document.getElementById("one");
+const two = document.getElementById("two");
+const three = document.getElementById("three");
+const zero = document.getElementById("zero");
 const equal = document.getElementById("equal");
-const p/m = document.getElementById("plus/minus");
+const comma = document.getElementById("comma");
+const sqrt = document.getElementById("sqrt");
+const square = document.getElementById("square");
 
+one.addEventListener('click',function(){
+    scrn.value += "1";
+})
+two.addEventListener('click',function(){
+    scrn.value += "2";
+})
+three.addEventListener('click',function(){
+    scrn.value += "3";
+})
+four.addEventListener('click',function(){
+    scrn.value += "4";
+})
+five.addEventListener('click',function(){
+    scrn.value += "5";
+})
+six.addEventListener('click',function(){
+    scrn.value += "6";
+})
+seven.addEventListener('click',function(){
+    scrn.value += "7";
+})
+eight.addEventListener('click',function(){
+    scrn.value += "8";
+})
+nine.addEventListener('click',function(){
+    scrn.value += "9";
+})
+zero.addEventListener('click',function(){
+    scrn.value += "0";
+})
+equal.addEventListener('click',function(){
+    scrn.value = eval(scrn.value);
+})
+AC.addEventListener('click',function(){
+    scrn.value = "";
+})
+sum.addEventListener('click',function(){
+    scrn.value += "+";
+})
+minus.addEventListener('click', function(){
+    scrn.value += "-";
+})
+multi.addEventListener('click', function(){
+    scrn.value += "*";
+})
+division.addEventListener('click', function(){
+    scrn.value += "/";
+})
+// comma.addEventListener("click",function(){
+//     if (scrn.value.includes(".") == true){
+//         return false
+//     }
+//     if (scrn.value.includes(".") == false){
+//         scrn.value += '.'
+//     }  
+// })
+// square.addEventListener("click", function(){
+//     if (scrn.value == ""){
+//         return false
+//     }
+//     else if(scrn.value.includes("+") == true || scrn.value.includes("-") == true || scrn.value.includes("/") == true ||scrn.value.includes("*") == true){
+//         return false
+//     }
+//     else{
+//         scrn.value = eval(scrn.value * scrn.value)
+//     }
+//     })
+// sqrt.addEventListener('click',function(){
+//     if (scrn.value == ""){
+//         return false
+//     }
+//     else if(scrn.value.includes("+") == true || scrn.value.includes("-") == true || scrn.value.includes("/") == true ||scrn.value.includes("*") == true){
+//         return false
+//     }
+//     else{
+//         scrn.value = Math.sqrt(scrn.value)
+//     }
+// })

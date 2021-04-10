@@ -1,4 +1,4 @@
- body{
+body{
     min-height: 97vh;
     padding:0 auto;
     margin:0 auto;
@@ -38,10 +38,14 @@ button{
     outline: none;
     background-color:rgb(54, 49, 49);
     color:white;
-    font-size: 2em;
     width:70%;
     font-size:3em;
-    padding:0.1em;   
+    padding:0.1em;
+    cursor:pointer;
+}
+button:active{
+    opacity:0.5;
+
 }
 .operator{
     background-color:rgb(226, 165, 53);
@@ -60,6 +64,11 @@ input{
     text-align:end;
     color:white;
     background-color: black;
+    cursor:pointer;
+    /*display:flex;
+    align-items: flex-end;
+    justify-content: space-aroun;
+    flex-direction: column;*/
 }
 .content1{
     grid-column: 1/5;
